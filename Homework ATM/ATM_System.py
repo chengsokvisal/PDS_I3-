@@ -39,3 +39,4 @@ print(f"Your remaining balance: ${balance}")
 print("Remaining in this machine:")
 for bill in sorted(bill_in_machine, reverse=True):
     print(f"${bill} bill cash: {bill_in_machine[bill]} ")
+    
